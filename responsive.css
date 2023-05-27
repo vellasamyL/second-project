@@ -1,0 +1,64 @@
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    /* banner section */
+    .banner-head h1 {
+        font-size: 25px;
+    }
+
+    .banner-head h4 {
+        margin-top: 20px;
+    }
+
+    .banner-btn {
+        margin-top: 30px;
+    }
+
+    /* features */
+    .Features {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    /* adding section */
+    .port-sec {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Recent h1::after {
+        width: 50%;
+    }
+
+    /* profile-section */
+    .profile-para {
+        text-align: center;
+    }
+
+    /* footer section */
+    .footer-paras {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .footer-con h1 {
+        text-align: center;
+    }
+
+    .footer-con2 h1 {
+        text-align: center;
+    }
+
+    .finish-1 {
+        text-align: center;
+    }
+
+    .finish-2 {
+        margin-top: 30px;
+    }
+}
